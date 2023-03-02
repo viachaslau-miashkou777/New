@@ -1,7 +1,7 @@
 import csv
 
 def sum_of_digits(number):
-    if type(number) == int and 0 < len(str(number)) < 0:
+    if type(number) == int and 0 < len(str(number)) < 10:
         return sum(int(d) for d in str(number))
     else:
         return "Input error!"
