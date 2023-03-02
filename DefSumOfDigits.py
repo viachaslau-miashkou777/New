@@ -9,6 +9,6 @@ def sum_of_digits(number):
 with open('test_numbers.csv', 'r') as f:
     reader = csv.reader(f)
     for string in reader:
-        number = int(string[0])
-        sum_digits = sum_of_digits(number)
-        print(f"Input number: {number}, Sum of digits: {sum_digits}")
+        num = int(string[0])
+        sum_digits = sum_of_digits(num)
+        print(f"Input number: {num}, Sum of digits: {sum_digits}")
